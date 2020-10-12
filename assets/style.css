@@ -38,3 +38,17 @@ main{
 .label{
     font-weight: bold;
 }
+
+
+#pwd{
+    visibility: hidden;
+}
+
+.info-wrapper:hover #pwd{
+    visibility: visible;
+}
+
+.show-info{
+    font-size: 12px;
+    font-style: italic;
+}
